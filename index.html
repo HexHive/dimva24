@@ -48,6 +48,10 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
 
+.session {
+    color: #b33;
+}
+
 section {
     padding: 60px 0;
 }
@@ -118,11 +122,11 @@ section h3.section-subheading {
 	<div class="collapse navbar-collapse" id="navbar">
 	<ul class="navbar-nav ml-auto">
 		<li class="nav-item"><a class="nav-link" href="#page-top">Home</a></li>
-		<!--<li class="nav-item"><a class="nav-link" href="#program">Program</a></li>-->
+		<li class="nav-item"><a class="nav-link" href="#program">Program</a></li>
+		<li class="nav-item"><a class="nav-link" href="#registration">Registration</a></li>
+		<li class="nav-item"><a class="nav-link" href="#cfposter">Call for Posters</a></li>
 		<li class="nav-item"><a class="nav-link" href="#cfp">Call for Papers</a></li>
-		<!--<li class="nav-item"><a class="nav-link" href="#cfa">Artifact Evaluation</a></li>-->
 		<li class="nav-item"><a class="nav-link" href="#committee">Committee</a></li>
-		<!--<li class="nav-item"><a class="nav-link" href="#registration">Registration</a></li>-->
 		<li class="nav-item"><a class="nav-link" href="#venue">Venue</a></li>
 		<!--<li class="nav-item"><a class="nav-link" href="#sponsors">Sponsors</a></li>-->
 	</ul>
@@ -149,20 +153,226 @@ section h3.section-subheading {
 
 <hr/>
 
-<!--<section id="program">
+<section id="program">
 <div class="container">
 <br>
-<h2>Workshop Program</h2>
+<h2>Conference Program</h2>
 
-Room: INF1
-<br>
+<h3>Wednesday, July 17: Day 0</h3>
+<div class="row margin-b-30">
+    <div class="col-sm-2">15:00 to 17:00</div>
+    <div class="col-sm-10">
+    <h4 class="session">Social event: Lausanne city tour</h4>
+        On this walking tour, we'll explore the old town of Lausanne. This is a great opportunity to get to know the other conference attendees and to walk off any travel fatigue.
+        Our meeting point is on the Riponne square, in front of the <a href="https://osm.org/go/0CSObm6u5?m=">Palais Rumine</a>, next to the Metro m2 stop "Riponne".
+    </div>
+    <div class="col-sm-2">17:00 to 18:30</div>
+    <div class="col-sm-10">
+        Following the city tour, we'll meet for an apéro at <a href="https://the-great.ch/">The Great Escape</a>, close to the Riponne metro stop and a few steps from lots of great restaurants and bars.<br/><br/>
+    </div>
+</div>
+
+<h3>Thursday, July 18: Day 1, in <a href="https://plan.epfl.ch/?room==BC%2005">BC05/06</a></h3>
+<div class="row margin-b-30">
+    <div class="col-sm-2">8:50 to 9:00</div>
+    <div class="col-sm-10"><h4 class="session">Chair's welcome to DIMVA'24</h4></div>
+    <div class="col-sm-2">9:00 to 10:00</div>
+    <div class="col-sm-10">
+        <h4 class="session">Keynote 1: Title TBD</h4>
+        <div class="row">
+            <div class="col-sm-2">
+                <img src="andrea.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-sm-10">
+                <h4>Andrea Continella (University of Twente)</h4>
+                <p>
+                    Andrea Continella is an Associate Professor at the University of Twente, where he leads the cybersecurity team of the Semantics, Cybersecurity & Services group (SCS), and he is a member of the International Secure Systems Lab (iSecLab). His research activity focuses on several aspects of systems security, such as malware and threat analysis, mobile and IoT security, software and firmware security, and large-scale measurements of security issues. Andrea is a strong advocate for open and reproducible science, he regularly publishes at top-tier security venues, and he serves on the program committees of major systems security conferences.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-2">10:00 to 10:30</div>
+    <div class="col-sm-10"><h4>Coffee break</h4></div>
+    <div class="col-sm-2">10:30 to 12:30</div>
+    <div class="col-sm-10">
+        <h4 class="session">Session 1: Vulnerability Detection and Defense</h4>
+
+        <b>Exceptional Interprocedural Control Flow Graphs for x86-64 Binaries</b>
+        by Joshua Bockenek (Virginia Tech), Freek Verbeek (Open University of The Netherlands and Virginia Tech), and Binoy Ravindran (Virginia Tech)<br/>
+
+        <b>S2malloc: Statistically Secure Allocator for Use-After-Free Protection And More</b>
+        by Ruizhe Wang (University of Waterloo), Meng Xu (University of Waterloo), and N. Asokan (University of Waterloo)<br/>
+
+        <b>Acoustic Side-Channel Attacks on a Computer Mouse</b>
+        by Gabriele Orazi (University of Padua), Marin Duroyon (Delft University of Technology), Mauro Conti (University of Padua), and Gene Tsudik (UCI)<br/>
+
+        <b>Using Semgrep OSS to Find OWASP Top 10 Weaknesses in PHP Applications: A Case Study</b>
+        by Lukas Kree (Fraunhofer FKIE), René Helmke (Fraunhofer FKIE), and Eugen Winter (Fraunhofer FKIE)<br/>
+
+        <b>Modularized Directed Greybox Fuzzing for Binaries over Multiple CPU Architectures</b>
+        by Sofiane Benahmed (Security Research Centre, Concordia University, Montreal, QC, Canada), Abdullah Qasem (Security Research Centre, Concordia University, Montreal, QC, Canada), Anis Lounis (Security Research Centre, Concordia University, Montreal, QC, Canada), and Mourad Debbabi (Security Research Centre, Concordia University, Quebec, Canada)<br/><br/>
+    </div>
+    <div class="col-sm-2">12:30 to 14:00</div>
+    <div class="col-sm-10"><h4>Lunch</h4></div>
+    <div class="col-sm-2">14:00 to 16:00</div>
+    <div class="col-sm-10">
+        <h4 class="session">Session 2: Malware and Threats</h4>
+
+        <b>Constructs of Deceit: Exploring Nuances in Modern Social Engineering Attacks</b>
+        by Mohammad Ali Tofighi (Florida International University), Behzad Ousat (Florida International University), Javad Zandi (Florida International University), Esteban Schafir (Florida International University), and Amin Kharraz (Florida International University)<br/>
+
+        <b>Tarallo: Evading Behavioral Malware Detectors in the Problem Space</b>
+        by Gabriele Digregorio (Politecnico di Milano), Salvatore Maccarrone (Politecnico di Milano), Mario D'Onghia (Politecnico di Milano), Luigi Gallo (Cyber Security Lab, Telecom Italia), Michele Carminati (Politecnico di Milano), Mario Polino (Politecnico di Milano), and Stefano Zanero (Politecnico di Milano)<br/>
+
+        <b>Evading Userland API Hooking, Again: Novel Attacks and a Principled Defense Method</b>
+        by Cristian Assaiante (Sapienza University of Rome), Simone Nicchi (Sapienza University of Rome), Daniele Cono D'Elia (Sapienza University of Rome), Leonardo Querzoni (Sapienza University of Rome)<br/>
+
+        <b>Extended Abstract: Evading Packing Detection:Breaking Heuristic-Based Static Detectors</b>
+        by Alexandre D'Hondt (UCLouvain), Charles-Henry Bertrand Van Ouytsel (UCLouvain), and Axel Legay (UCLouvain)<br/>
+
+        <b>Listening between the Bits: Privacy Leaks in Audio fingerprints</b>
+        by Moritz Pfister (TU Braunschweig), Robert Michael (TU Braunschweig), Max Boll (TU Braunschweig), Konrad Rieck (TU Berlin), and Daniel Arp (TU Berlin)<br/><br/>
+    </div>
+    <div class="col-sm-2">16:00 to 16:30</div>
+    <div class="col-sm-10"><h4>Coffee break</h4></div>
+    <div class="col-sm-2">14:00 to 16:00</div>
+    <div class="col-sm-10">
+        <h4 class="session">Session 3: Mobile and Web Application Security</h4>
+
+        <b>Bringing UFUs Back into the Air With FUEL: A Framework for Evaluating the Effectiveness of Unrestricted File Upload Vulnerability Scanners</b>
+        by Sebastian Neef (TU Berlin) and Maath Oudeh (TU Berlin)<br/>
+
+        <b>SandPuppy: Deep-state fuzzing guided by automatic detection of state-representative variables</b>
+        by Vivin Paliath (Arizona State University), Erik Trickel (Arizona State University), Tiffany Bao (Arizona State University), Ruoyu ""Fish"" Wang (Arizona State University), Adam Doupe (Arizona State University), and Yan Shoshitaishvili (Arizona State University)<br/>
+
+        <b>Extended Abstract: Tracking Manifests - Persistent Identifiers in Progressive Web Apps</b>
+        by  Dolière Francis Somé (Stanford University)<br/>
+
+        <b>PayRide: Secure Transport e-Ticketing with Untrusted Smartphone Location</b>
+        by Michele Marazzi (ETH Zurich), Patrick Jattke (ETH Zurich), Jason Zibung (ETH Zurich), and Kaveh Razavi (ETH Zurich)<br/>
+
+        <b>Knocking on Admin's Door: Protecting Critical Web Applications with Deception</b>
+        by Billy Tsouvalas (Stony Brook University) and Nick Nikiforakis (Stony Brook University)<br/><br/>
+    </div>
+    <div class="col-sm-2">18:30 to 21:00</div>
+    <div class="col-sm-10">
+        <h4 class="session">Poster Session and Social BBQ (BC terrasse, 4th floor)</h4>
+        After the technical sessions we'll slowly ease into the poster session to discuss great ongoing research along a social BBQ.<br/><br/>
+    </div>
+</div>
 
 
+<h3>Friday, July 19: Day 2, in <a href="https://plan.epfl.ch/?room==BC%2005">BC05/06</a></h3>
+<div class="row margin-b-30">
+    <div class="col-sm-2">9:00 to 10:00</div>
+    <div class="col-sm-10">
+        <h4 class="session">Keynote 2: Title TBD</h4>
+        <div class="row">
+            <div class="col-sm-2">
+                <img src="veelasha.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-sm-10">
+                <h4>Veelasha Moonsamy (Ruhr University Bochum)</h4>
+                <p>Bio TBD
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-2">10:00 to 10:30</div>
+    <div class="col-sm-10"><h4>Coffee break</h4></div>
+    <div class="col-sm-2">10:30 to 12:30</div>
+    <div class="col-sm-10">
+        <h4 class="session">Session 4: AI for Security</h4>
+
+        <b>Approach for the Optimization of Machine Learning Models for Calculating Binary Function Similarity</b>
+        by Suguru Horimoto (National Police Agency of Japan), Keane Lucas (Carnegie Mellon University), and Lujo Bauer (Carnegie Mellon University)<br/>
+
+        <b>Inferring Recovery Steps from Cyber Threat Intelligence Reports</b>
+        by Zsolt Levente Kucsván (University of Twente), Marco Caselli (Siemens AG), Andreas Peter (Carl von Ossietzky Universität Oldenburg), and Andrea Continella (University of Twente)<br/>
+
+        <b>Pairing Security Advisories with Vulnerable Functions Using Open-Source LLMs</b>
+        by Trevor Dunlap (North Carolina State University), John Speed Meyers (Chainguard), Brad Reaves (North Carolina State University), and William Enck (North Carolina State University)<br/>
+
+        <b>Extended Abstract: Assessing Language Models for Semantic Textual Similarity in Cybersecurity</b>
+        by Arian Soltani (Université de Sherbrooke), DJeff Kanda Nkashama (Université de Sherbrooke), Jordan Felicien Masakuna (Université de Sherbrooke), Marc Frappier (Université de Sherbrooke), Pierre-Martin Tardif (Université de Sherbrooke), and Froduald Kabanza (Université de Sherbrooke)<br/>
+
+        <b>Extended Abstract: A Transfer Learning-based Training Approach for DGA Classification</b>
+        by Arthur Drichel (RWTH Aachen University), Benedikt von Querfurth (RWTH Aachen University), and Ulrike Meyer (RWTH Aachen University)"<br/><br/>
+    </div>
+    <div class="col-sm-2">12:30 to 14:00</div>
+    <div class="col-sm-10"><h4>Lunch</h4></div>
+    <div class="col-sm-2">14:00 to 15:36</div>
+    <div class="col-sm-10">
+        <h4 class="session">Session 5: Hardware and Firmware Security</h4>
+
+        <b>Seum Spread: Discerning Flaws in IoT Firmware Via Security-Relevant Call Sequence Semantics</b>
+        by Anis Lounis (Security Research Centre, Concordia University, Montreal, QC, Canada), Anthony Andreoli (Security Research Centre, Concordia University, Montreal, QC, Canada), Mourad Debbabi (Security Research Centre, Concordia University, Montreal, QC, Canada), and Aiman Hanna (Security Research Centre, Concordia University, Montreal, QC, Canada)<br/>
+
+        <b>Gluezilla: Efficient and Scalable Software to Hardware Binding using Rowhammer</b>
+        by Ruben Mechelinck (imec-DistriNet, KU Leuven), Daniel Dorfmeister (Software Competence Center Hagenberg), Bernhard Fischer (Software Competence Center Hagenberg), Stijn Volckaert (imec-DistriNet, KU Leuven), and Stefan Brunthaler (μCSRL, CODE Research Institute, University of the Bundeswehr Munich)<br/>
+
+        <b>SmmPack: Obfuscation for SMM Modules</b>
+        by Kazuki Matsuo (Waseda University), Satoshi Tanda (Satoshi's System Programming Lab), Yuhei Kawakoya (NTT Security Japan KK), Kuniyasu Suzaki (Institute of Information Security), and Tatsuya Mori (Waseda University/NICT/RIKEN AIP)<br/>
+
+        <b>Presshammer: Rowhammer and Rowpress without Physical Address Information</b>
+        by Jonas Juffinger (Graz University of Technology), Sudheendra Raghav Neela (Graz University of Technology), Martin Heckel (Hof Univeristy, University of Applied Sciences), Lukas Schwarz (Graz University of Technology), Florian Adamsky (Hof University of Applied Sciences, Institute of Information Systems (iisys)), and Daniel Gruss (Graz University of Technology)<br/><br/>
+    </div>
+    <div class="col-sm-2">15:36 to 16:00</div>
+    <div class="col-sm-10"><h4>Coffee break</h4></div>
+    <div class="col-sm-2">16:00 to 17:36</div>
+    <div class="col-sm-10">
+        <h4 class="session">Session 6: Cyber Physical Systems and IoT</h4>
+
+        <b>SecMonS: A Security Monitoring Framework for IEC 61850 Substations Based on Configuration Files and Logs</b>
+        by Onur Duman (Concordia University), Mengyuan Zhang (Vrije Universiteit), Lingyu Wang (Concordia University), and Mourad Debbabi (Concordia university)<br/>
+
+        <b>FaultGuard: A Generative Approach to Resilient Fault Prediction in Smart Electrical Grids</b>
+        by Emad Efatinasab (University of Padua), Francesco Marchiori (University of Padua), Alessandro Brighente (University of Padua), Mirco Rampazzo (University of Padua), and Mauro Conti (University of Padua & Delft University of Technology)<br/>
+
+        <b>Wireless Modulation Identification: filling the gap in IoT networks security audit</b>
+        by Florent Galtier (LAAS-CNRS), Guillaume Auriol (LAAS-CNRS), Vincent Nicomette (LAAS-CNRS), Paul L. R. Olivier (LAAS-CNRS), Romain Cayre (EURECOM), and Mohamed Kaâniche (CNRS, LAAS)<br/>
+
+        <b>Extended Abstract: Assessing GNSS Vulnerabilities in Smart Grids</b>
+        by Sine Canbolat (Karlsruhe Institute of Technology (KIT)), Clemens Fruböse (Karlsruhe Institute of Technology (KIT)), Ghada Elbez (Karlsruhe Institute of Technology (KIT)), and Veit Hagenmeyer (Karlsruhe Institute of Technology (KIT))<br/><br/>
+    </div>
+    <div class="col-sm-2">17:36 to 17:40</div>
+    <div class="col-sm-10">
+        <h4 class="session">Closing notes and good bye</h4>
+    </div>
+</div>
+
+</div></section>
+
+<hr>
+
+<section id="registration">
+<div class="container">
+<br/><h2>Registration</h2>
+The registration is open with an early bird price of 290.- CHF (until June 20) and regular price of 340.- CHF. Please register early to help us plan.
+The registration site is at <a href="https://dimva24.epfl.ch/dimva24-registration/">https://dimva24.epfl.ch/dimva24-registration/</a>.
 </div>
 </section>
 
 <hr>
--->
+
+<section id="cfposter">
+<div class="container">
+<br/><h2>Call for Posters</h2>
+<h3>Important Dates (AoE)</h3>
+<ul>
+    <li>Submission: Jun 14, 2024</li>
+    <li>Notification Jun 19, 2024</li>
+</ul>
+High quality posters enable discussion of recent research results, deep interactions with interested attendees, a peek into ongoing work, and presentation of new crazy ideas.
+DIMVA welcomes the submission of posters on preliminary findings, ongoing work, or recently published work. Posters will be presented in a forum where attendees can mingle and interact.
+
+Poster submissions contain an extended abstract of up to two pages in the DIMVA paper submission format along with a draft of the poster.
+If the poster refers to a published paper, it must be referenced.
+The submission must be in PDF format. Submit the poster at <a href="https://dimva24-poster.epfl.ch/">https://dimva24-poster.epfl.ch/</a>.
+</div>
+</section>
+
+<hr>
 
 <section id="cfp">
 <div class="container">
@@ -328,6 +538,11 @@ Room: INF1
 <h4>Publication chair</h4>
 <ul>
     <li>Michele Carminati</li>
+</ul>
+
+<h4>Poster chair</h4>
+<ul>
+    <li><a href="https://flaviotoffalini.info/">Flavio Toffalini</a></li>
 </ul>
 
 <h4>General chair</h4>
